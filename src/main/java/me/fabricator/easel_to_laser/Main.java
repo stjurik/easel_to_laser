@@ -19,13 +19,15 @@ import javafx.scene.layout.GridPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import static javafx.application.Application.launch;
+import static javafx.application.Application.launch;
+import static javafx.application.Application.launch;
 
 /**
  *
  * @author jura
  */
-public class MainApp extends Application {
-    private static Logger log = Logger.getLogger(MainApp.class.getName());
+public class Main extends Application {
+    private static Logger log = Logger.getLogger(Main.class.getName());
     
     Stage window;
     private File myFile;

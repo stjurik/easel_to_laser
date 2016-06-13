@@ -22,7 +22,7 @@ public enum Gcode {
         return content;
     }
     public void setContent(String newContent){
-        if(newContent=="")
+        if(newContent.length()<2)
             return;
         this.content = newContent;
     }
